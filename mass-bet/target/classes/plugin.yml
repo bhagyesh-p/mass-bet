@@ -1,0 +1,11 @@
+name: MassBet
+version: 1.2
+author: dogboy
+description: flip a coin
+main: dogboy602k.MassBet.Main.MassBet
+commands:
+    Mass:
+        description: MassBet command
+        permissison: MassBet.user.use
+        permission-message: you cannot use this command
+        usage: /<command> <player>
